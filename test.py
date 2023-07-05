@@ -1,4 +1,5 @@
-from cnnClassifier.logging import logging
+from cnnClassifier.logging import logger
+import yaml
 
 
-logging.info("Welcome to cnnClassifier logging")
+logger.info("Welcome to cnnClassifier logging")
